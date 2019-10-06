@@ -14,23 +14,23 @@
 </head>
 <body>
 
-	<header>
+	<header id="home">
 		<div class="container">
 			<div class="anim"><div class="logo"></div><!--logo--></div><!--anim-->
 			<nav class="desktop-menu">
 				<ul>
-					<li><a href="">home</a></li>
-					<li><a href="">serviços</a></li>
-					<li><a href="">sobre</a></li>
-					<li><a href="">contatos</a></li>
+					<li><a href="#home">home</a></li>
+					<li><a href="#services">serviços</a></li>
+					<li><a href="#about">sobre</a></li>
+					<li><a href="#contact">contatos</a></li>
 				</ul>
 			</nav><!--desktop-menu-->
 			<nav class="mobile-menu">
 				<ul>
-					<li><a href="">home</a></li>
-					<li><a href="">serviços</a></li>
-					<li><a href="">sobre</a></li>
-					<li><a href="">contatos</a></li>
+					<li><a href="#home">home</a></li>
+					<li><a href="#services">serviços</a></li>
+					<li><a href="#about">sobre</a></li>
+					<li><a href="#contact">contatos</a></li>
 				</ul>
 			</nav><!--mobile-menu-->
 		</div><!--container-->
@@ -46,7 +46,7 @@
 		<div class="container">
 			<div class="texto-sessao1">
 				<div class="clear"></div>
-				<h2>Desenvolvemos sistemas únicos</h2>
+				<h2 id="services">Desenvolvemos sistemas únicos</h2>
 				<p>Para todos os pontos de tratamento e diversos segmentos:</p>
 				<ul>
 					<li>Centros de tratamento</li>
@@ -64,7 +64,7 @@
 	</section><!--sessao1-->
 	<div class="clear"></div>
 
-	<section class="sessao2">
+	<section class="sessao2" id="about">
 		<div class="container">
 			<h2>Desenvolvido por pessoas e para pessoas</h2>
 			<p>Nós da ChangeGames queremos sempre desenvolver o melhor produto para que assim as pessoas tirem melhor proveito do que oferecemos, pensando nisso e com a ajuda da gamificação, projetamos e criamos diferentes métodos para a dinamização e gamificação da fisioterapia. 
@@ -124,13 +124,12 @@
 	</section><!--sessao3-->
 	<section class="sessao4">
 		<div class="container">
-			<div class="form">
+			<div class="form" id="contact">
 				<h2>Entre em contato</h2>
 				<p>Entre em contato conosco através do nosso e-mail changegames.st@gmail.com ou preenchendo os dados para contato abaixo.</p>
-				<form action="enviar.php" name="form_contato" method="post">
+				<form>
 					<input type="text" name="nome" placeholder="Nome*">
-					<input type="text" name="contact" placeholder="Endereço de email para contato*">
-					<input type="text" name="subject" placeholder="Assunto*">
+					<input type="text" name="email" placeholder="E-mail*">
 					<textarea name="mensagem" placeholder="Mensagem"></textarea>
 					<div class="clear"></div>
 					<div><input type="submit" name="acao" value="Enviar">
