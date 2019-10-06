@@ -382,7 +382,7 @@ section.sessao1 .container{
 	color: white;
 	width: 50%;
 	float: left;
-	padding:140px 0 150px 0;
+	padding:150px 0 140px 0;
 	background-color: #835FA7;
 }
 
@@ -409,7 +409,7 @@ section.sessao1 .container{
 .part2{
 	float: left;
 	width: 50%;
-	padding:140px 0 90px 0;
+	padding:140px 0 60px 0;
 	background-color: white;
 }
 
@@ -453,11 +453,23 @@ section.sessao1 .container{
 	position: relative;
 }
 
+.titulo-autor .img-autor1{
+	float: left;
+	width: 40px;
+	height: 40px;
+	background-image: url('../images/actor2.jpeg');
+	background-size: cover;
+	background-position: center;
+	border-radius: 20px;
+	position: relative;
+}
+
 .texto-autor{
 	float: left;
 	width: 100%;
 	margin-top: 10px;
 	max-width: 470px;
+	min-height: 135px;
 }
 
 .texto-autor p{
@@ -470,7 +482,7 @@ section.sessao1 .container{
 .slider-bullets{
 	width: 100%;
 	float: left;
-	margin-top: 12px;
+	margin-top: 42px;
 	padding-left: 30px;
 }
 
