@@ -127,9 +127,10 @@
 			<div class="form">
 				<h2>Entre em contato</h2>
 				<p>Entre em contato conosco através do nosso e-mail changegames.st@gmail.com ou preenchendo os dados para contato abaixo.</p>
-				<form>
+				<form action="enviar.php" name="form_contato" method="post">
 					<input type="text" name="nome" placeholder="Nome*">
-					<input type="text" name="email" placeholder="E-mail*">
+					<input type="text" name="contact" placeholder="Endereço de email para contato*">
+					<input type="text" name="subject" placeholder="Assunto*">
 					<textarea name="mensagem" placeholder="Mensagem"></textarea>
 					<div class="clear"></div>
 					<div><input type="submit" name="acao" value="Enviar">
