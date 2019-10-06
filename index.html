@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Change Games</title>
+	<title>Projeto Prático 03</title>
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 	<meta charset="utf-8">
 	<meta name="description" content="Site topzaço">
 	<meta name="keywords" content="palavraças,separadas,por,virgula">
@@ -73,28 +76,53 @@
 		<div class="part1">
 			<div class="wraper-part1">
 				<h2>Nosso time</h2>
-				<p>Nossa equipe é formada por diversos profissionais qualificados ou que buscam qualificação em áreas específicas para o setor da saúde e desenvolvimento de sistemas, as quais tornam a ChangeGames uma Startup de ótima qualidade e confiabilidade tornando ela e seus produtos únicos.</p>
+				<p>Nossa equipe é formada por diversos profissionais qualificados ou que buscam qualificação em áreas específicas para o setor da saúde e desenvolvimento de sistemas, as quais tornam a ChangeGames uma Startup de ótima qualidade e confiabilidade tornando ela e seus produtos.</p>
 			</div><!--wraper-part1-->
 		</div><!--part1-->
 		<div class="part2">
-			<div class="sobre-autor">
-				<div class="titulo-autor">
-						<div class="wraper-titulo-autor">
-							<h2>André Giron</h2>
-							<p>Student / Future Full Stack</p>
-						</div><!--wraper-titulo-autor-->
-					<div class="img-autor"></div>
-				</div><!--titulo-autor-->
-				<div class="texto-autor">
-					<p>Atualmente estudante do curso de informática no IFPR - Campus Jacarezinho, cursando o curso de programação Full Stack pela empresa DankiCode, desenvolvedor de sistemas, conhecimento intermediário em HTML, CSS, JAVA, PHP, RUBY e C++, conhecimento inicial em Pyhton e Unity e CEO da empresa ChangeGames.</p>
-				</div><!--text-autor-->
-			</div><!--sobre-autor-->
-			<div class="clear"></div>
-			<div class="slider-bullets">
-					<span style="background-color: rgb(100,100,100);"></span>
-					<span></span>
-					<span></span>
-			</div><!--slides-bullets-->
+			  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    			<!-- Indicators -->
+			    <ol class="carousel-indicators">
+			      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			      <li data-target="#myCarousel" data-slide-to="1"></li>
+			      <li data-target="#myCarousel" data-slide-to="2"></li>
+			    </ol>
+			<div class="carousel-inner">
+      			<div class="item active">
+					<div class="sobre-autor">
+						<div class="titulo-autor">
+								<div class="wraper-titulo-autor">
+									<h2>André Giron</h2>
+									<p>Student / Future Full Stack</p>
+								</div><!--wraper-titulo-autor-->
+							<div class="img-autor"></div>
+						</div><!--titulo-autor-->
+						<div class="texto-autor">
+							<p>Atualmente estudante do curso de informática no IFPR - Campus Jacarezinho, cursando o curso de programação Full Stack pela empresa DankiCode, desenvolvedor de sistemas, conhecimento intermediário em HTML, CSS, JAVA, PHP, RUBY e C++, conhecimento inicial em Pyhton e Unity e CEO da empresa ChangeGames.</p>
+						</div><!--text-autor-->
+					</div><!--sobre-autor-->
+					<div class="clear"></div>
+				</div><!--item-active-->
+			      <div class="item">
+					<div class="sobre-autor">
+						<div class="titulo-autor">
+								<div class="wraper-titulo-autor">
+									<h2>Pedro Arantes</h2>
+									<p>Student</p>
+								</div><!--wraper-titulo-autor-->
+							<div class="img-autor1"></div>
+						</div><!--titulo-autor-->
+						<div class="texto-autor">
+							<p>Atualmente estudante do curso de informática no IFPR - Campus Jacarezinho, desenvolvedor de sistemas, conhecimento intermediário em HTML, CSS, JAVA, conhecimento inicial em Android Studio e COO da empresa ChangeGames.</p>
+						</div><!--text-autor-->
+					</div><!--sobre-autor-->
+					<div class="clear"></div>
+				</div><!--item-->
+			</div><!--carousel-->
+			<!--<div class="slider-bullets">
+				<a class="" href="#myCarousel" data-slide="prev"><span></span></a>
+				<a class="" href="#myCarousel" data-slide="next"><span></span></a>
+			</div>slides-bullets-->
 		</div><!--part2-->
 		<div class="clear"></div>
 	</section><!--sessao3-->
